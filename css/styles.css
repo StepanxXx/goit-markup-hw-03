@@ -234,6 +234,7 @@ span.logo-right-part {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .feature-item {
     width: 264px;
@@ -264,6 +265,7 @@ span.logo-right-part {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .team-member {
@@ -302,6 +304,7 @@ span.logo-right-part {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .portfolio-item-title,
