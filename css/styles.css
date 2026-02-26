@@ -279,7 +279,6 @@ span.logo-right-part {
     background-color: var(--white);
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
-    flex-basis: 264px;
 }
 .team-member-name {
     text-align: center;
