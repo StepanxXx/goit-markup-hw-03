@@ -1,0 +1,339 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+    --font-size: 16px;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+
+/* #region Base */
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: 400;
+    color: var(--slate);
+    background-color: var(--white);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em
+}
+
+a {
+    text-decoration: none;
+    font-size: inherit;
+    color: var(--navy-blue);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+}
+
+ul, ol {
+    font-size: inherit;
+    font-family: inherit;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+button {
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* #endregion */
+
+/* #region Common */
+.container {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+/* #endregion */
+
+/* #region Logo */
+.logo-link {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--iris);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+span.logo-right-part {
+    color: var(--navy-blue);
+}
+
+/* #endregion */
+
+/* #region navigation */
+.page-header {
+    border-bottom: 1px solid var(--cornflower);
+}
+.page-header .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 12px;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 23px;
+}
+.navigation {
+    font-weight: 500;
+    color: var(--navy-blue);
+    font-size: var(--font-size);
+    letter-spacing: 0.02em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 76px;
+    row-gap: 12px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 12px;
+}
+.menu-link {
+    font-size: var(--font-size);
+    letter-spacing: 0.02em;
+}
+
+.menu-link {
+    font-size: var(--font-size);
+    letter-spacing: 0.02em;
+}
+
+.address-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 40px;
+    row-gap: 12px;
+    justify-content: flex-end;
+}
+
+.address-link {
+    font-size: var(--font-size);
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active,
+.address-link:hover,
+.address-link:focus,
+.address-link:active {
+    color: var(--ocean);
+}
+/* #endregion */
+
+/* #region  Hero*/
+.hero {
+    background-color: var(--navy-blue);
+    color: var(--white);
+    padding: 188px 0;
+}
+
+.hero-title {
+    text-align: center;
+    width: 496px;
+    margin: 0 auto 48px;
+}
+
+.hero-button {
+    display: block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
+    width: 169px;
+    margin: 0 auto;
+    font-weight: 400;
+    background-color: var(--iris);
+    color: var(--white);
+    letter-spacing: 0.04em;
+    text-align: center;
+    line-height: 1.5;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--ocean);
+}
+/* #endregion */
+
+/* #region  Our Features*/
+.features {
+    padding: 120px 0;
+
+}
+.features-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.feature-item {
+    width: 264px;
+}
+
+.feature-item-title {
+    color: var(--navy-blue);
+    margin-bottom: 8px;
+}
+.feature-item-description {
+    color: var(--slate);
+}
+/* #endregion */
+
+/* #region Our Team*/
+.team {
+    background-color: var(--cloud);
+    color: var(--navy-blue);
+    padding: 120px 0;
+}
+.team-title {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: var(--white);
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px;
+}
+.team-member-name {
+    text-align: center;
+    color: var(--navy-blue);
+    margin: 32px 0 8px;
+}
+
+.team-member-role {
+    color: var(--slate);
+}
+.team-member-name,
+.team-member-role {
+    text-align: center;
+}
+/* #endregion */
+
+/* #region  Our Portfolio*/
+.portfolio {
+    padding: 120px 0;
+}
+
+.portfolio-title {
+    color: var(--navy-blue);
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item-title,
+.portfolio-item-tag {
+    border: 1px solid var(--cornflower);
+
+}
+
+.portfolio-item-title {
+    color: var(--navy-blue);
+    padding: 32px 16px 0;
+    border-top: none;
+    border-bottom: none;
+}
+
+.portfolio-item-tag {
+    border-top: none;
+    padding: 8px 16px 32px;
+}
+/* #endregion */
+
+/* #region  Footer*/
+.footer-block {
+    padding: 100px 0;
+}
+.footer-description {
+    width: 264px;
+    margin-top: 16px;
+}
+.footer-block,
+.footer-block span.logo-right-part {
+    background-color: var(--navy-blue);
+    color: var(--cloud);
+}
+/* #endregion */
+
