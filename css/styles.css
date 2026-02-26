@@ -158,12 +158,11 @@ span.logo-right-part {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    row-gap: 12px;
-    padding: 24px 0;
 }
 .menu-link {
     font-size: var(--font-size);
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .menu-link {
@@ -176,7 +175,6 @@ span.logo-right-part {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 40px;
-    row-gap: 12px;
     justify-content: flex-end;
     padding: 24px 0;
 }
