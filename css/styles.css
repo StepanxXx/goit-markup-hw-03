@@ -292,6 +292,7 @@ span.logo-right-part {
 }
 
 .portfolio-title {
+    text-align: center;
     color: var(--navy-blue);
     text-transform: capitalize;
     margin-bottom: 72px;
