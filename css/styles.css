@@ -79,6 +79,8 @@ address {
 
 img {
     display: block;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -234,7 +236,7 @@ span.logo-right-part {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 .feature-item {
     flex-basis: calc((100% - 24px * 3) / 4);
@@ -270,6 +272,7 @@ span.logo-right-part {
 
 .team-member {
     background-color: var(--white);
+    
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px;
     flex-basis: 264px;
@@ -303,7 +306,7 @@ span.logo-right-part {
 
 .portfolio-list {
     display: flex;
-    gap: 24px;
+    gap: 48px 24px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
